@@ -17,11 +17,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: ec2-54-243-228-140.compute-1.amazonaws.com
-  username: hfmpdzxpwcfrxb
-  database: dadjr3kqfcmqj6
-  password: cf493e97b911eb4f6abb1911b509ca1e419dce613624a9736b1ae50c8cf3efcb
-  port: 5432
+  host: <%= ENV['DB_HOST'] %>
+  username: <%= ENV['DB_USER'] %>
+  database: <%= ENV['DATABASE'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  port: <%= ENV['DB_PORT'] %>
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -57,4 +57,3 @@ test:
 #
 production:
   <<: *default
-  password: <%= ENV['PATRONES_HERMOSOS_API_DATABASE_PASSWORD'] %>
