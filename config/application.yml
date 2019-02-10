@@ -1,3 +1,7 @@
 # config/application.yml
 
-db_password: "84d3077820daf5f67a511a745c2cf534b7620408e5ea4075519d14b8685c58b8"
+phb_db_password: "84d3077820daf5f67a511a745c2cf534b7620408e5ea4075519d14b8685c58b8"
+phb_database: "d4aco9seddf18b"
+phb_db_username: "qvelyfmmqueftt"
+phb_db_host: "ec2-54-235-68-3.compute-1.amazonaws.com"
+phb_db_port: "5432"
