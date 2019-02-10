@@ -2,6 +2,8 @@
 
 Aplicación para el manejo de logística del campamento Patrones Hermosos.
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/f10a9075d0e60177285e/maintainability)](https://codeclimate.com/github/ProyectoIntegrador2018/patrones_hermosos_backend/maintainability)
+
 ## Table of contents
 
 * [Client Details](#client-details)
